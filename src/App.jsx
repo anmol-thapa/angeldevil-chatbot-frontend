@@ -12,7 +12,7 @@ export default function App() {
 
 
   async function backendReq() {
-    const response = await fetch('https://angeldevil-chatbot-backend-643dfacf3e6b.herokuapp.com/chat', {
+    const response = await fetch('https://angeldevil-chatbot-backend-db584ad16402.herokuapp.com/chat', {
       headers: {
         "Content-Type": "application/json"
       },
