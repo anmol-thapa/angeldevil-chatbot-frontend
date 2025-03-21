@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
+import dayjs from 'dayjs';
 import './App.css';
-import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
 const MAX_TEXT_LIMIT = 1000;
 
